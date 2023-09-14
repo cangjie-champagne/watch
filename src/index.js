@@ -380,7 +380,7 @@ class Watch {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['twenty'],
       web: []
     };
     
@@ -396,19 +396,19 @@ class Watch {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['ten'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bow'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['twenty'];
           break;
       }
     }
